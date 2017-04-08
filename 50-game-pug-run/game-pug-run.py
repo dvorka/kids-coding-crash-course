@@ -197,7 +197,7 @@ dobrota.nastavPozici(random.randint(10,sirkaObrazovky), random.randint(10,vyskaO
 # nekonecna smycka hry
 while True:    
     # zaciname znovu: vybarvi pozadi cernou barvou
-    obrazovka.fill((0,0,0))
+    obrazovka.fill((255,255,255))
     # zpracuj udalosti klavesnice/mysi/... a nastav globalni promenne
     zpracujUdalosti(klavesnice)
     # pohni mopslike & spol
